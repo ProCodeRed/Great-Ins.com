@@ -1,0 +1,12 @@
+
+.main{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+}
+.banner img{width: 100%;}
+#logo-main{position: absolute;}
+.nav-bg{background-color: #d6dde3;}
+.active{background-color: #001b50;}
+.nav-img{height: 27px;}
