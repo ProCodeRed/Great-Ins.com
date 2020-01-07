@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Great-INS|Home</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Raleway:400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mycustom.css">
+    <!-- <link rel="stylesheet" href="css/mytest.css"> -->
 </head>
 <body>
     <div class="banner">
         <img src="images/banner.png" alt="">
     </div>
-    <section class="main nav-bg">
+    <section class="main nav-bg part1">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 d-none d-lg-block">
@@ -57,71 +60,328 @@
             </div> <!--top header code ends here-->
         </div>
     </section>
-    <section class="banner1">
+    <section class=" t-4 r-0 l-0 bb-section2 part2">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-5">
-                    <div class="ad-text">
-                        <h1>WE PROVIDE</h1>
-                        <div class="ad-desc">
-                            <p>Insurance and Risk<br>Management services to<br>Business and Individuals</p>
-                        </div>
-                        <img src="images/red-arrow.png" alt="">
-                        <p class="mobile-number">123-456-7890</p>
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="form">
-                        <div class="row">
-                            <p>get a quote</p>
-                        </div>
-                        <div class="row">
-                            <div class="inner-form">
-                                <div class="form-areas">
-                                    <div class="row">
-                                        <div class="">
-                                            <input type="text" name="Name" id="">
-                                            <input type="text" name="Phone" id="">
-                                        </div>
-                                        <div class="">
-                                            <input type="email" name="Email" id="">
-                                            <input type="text" name="Zip-Code" id="" maxlength="6">
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                            <select name="" id="">
-                                                <option value="1">Auto</option>
-                                                <option value="1">Auto</option>
-                                                <option value="1">Auto</option>
-                                                <option value="1">Auto</option>
-                                                <option value="1">Auto</option>
-                                            </select>
-                                    </div>
-                                    <div class="row">
-                                        <p>average insurance savings over 17%.*</p>
-                                    </div>
-                                    <div class="row">
-                                        <button>quote now <span><img src="images/bottomarrow.png" alt=""></span></button>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col">
-                                            <p>call an agent <span><img src="images/bottomarrow.png" alt=""></span></p>
-                                        </div>
-                                        <div class="col">
-                                            <p>visit our office <span><img src="images/bottomarrow.png" alt=""></span></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+             <div class="row justify-content-between">
+                 <div class="col-sm-12 col-md-4 col-lg-6">
+                     <p class="text-uppercase text-blue font-weight-bold raleway weprovide">we provide</p>
+                     <p class="text-capitalize lato font-weight-normal insuranceAndRisk">insurance and risk <br> management services to <br> business and individuals</p>
+                     <img src="images/red-arrow.png" alt="">
+                     <span class="lato font-weight-bold insuranceAndRisk align-bottom">123-456-7890</span>
+                 </div>
+                 <div><img src="images/left.png" alt=""></div>
+                 <div class="col-sm-12 col-md-4 col-lg-4 text-center form-bg rounded-top mt-5">
+                     <div class="">
+                         <form class="mb-0" action="">
+                             <p class="text-white text-uppercase py-2 m-0 bitter getAQuote">get a quote</p>
+                             <div class="inner-bg pt-3 pr-3 pl-3 rounded-top pb-3">
+                                 <div>
+                                     <div class="row justify-content-between">
+                                         <div class="col-lg-6 pb-4">
+                                             <input class="w-100 form-control" type="text" name="Name" id="">
+                                         </div>
+                                         <div class="col-lg-6 pb-4">
+                                             <input class="w-100 form-control" type="text" name="Phone" id="">
+                                         </div>
+                                     </div>
+                                     <div class="row">
+                                         <div class="col-lg-6 pb-4">
+                                             <input class="w-100 form-control" type="email" name="Email" id="">
+                                         </div>
+                                         <div class="col-lg-6 pb-4">
+                                             <input class="w-100 form-control" type="text" name="Zipcode" id="">
+                                         </div>
+                                     </div>
+                                     <div class="row">
+                                         <div class="col w-100">
+                                             <select name="" id="" class="w-100 form-control">
+                                                 <option value="1">Auto</option>
+                                                 <option value="2">Auto</option>
+                                                 <option value="3">Auto</option>
+                                                 <option value="4">Auto</option>
+                                                 <option value="5">Auto</option>
+                                                 <option value="6">Auto</option>
+                                             </select>
+                                         </div>
+                                     </div>
+                                     <p class="text-white text-left lato form-text"><small>Average insurance savings over 17%.*</small></p>
+                                     <div class="row text-lg-right">
+                                         <div class="col">
+                                             <button class="text-uppercase opensans btn-1 btn-bg border-0 btn btn-warning px-5">Quote now <span><img src="images/button-arrow.png" alt=""></span></button>
+                                         </div>
+                                     </div>
+                                     <div class="text-right">
+                                         <div class="row">
+                                             <div class="col pr-0">
+                                                 <p class="text-white text-capitalize lato form-text">Call an Agent <span><img src="images/form-arrow.png" alt=""></span></p>
+                                             </div>
+                                             <div class="col pl-0">
+                                                 <p class="text-white text-capitalize lato form-text">Visit our office <span><img src="images/form-arrow.png" alt=""></span></p>
+                                             </div>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </form>
+                     </div>
+                 </div>
+                 <div><img src="images/right.png" alt=""></div>
+             </div>
+        </div>
+     </section> <!--banner's code ends here-->
+     <section class="part3">
+         <div class="row mx-0 ">
+             <div class="col-sm-12 col-md-4 m-auto">
+                <div class="order-1 style2">
+                    <h3 class="text-uppercase lato text-blue">commercial auto insurance</h3>
+                    <p class="lato">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vehicula rhoncus. Suspendisse ultricies posuere euismod. Quisque rutrum sollicitudin faucibus. Ut eu enim ac augue ultricies bibendum. Proin eget lectus diam, id feugiat ante. Nam lobortis magna sed est posuere eget ornare augue facilisis. Cras nulla tellus, eleifend eu interdum at, pharetra ut felis. Donec semper, augue eu venenatis </p>
+                    <a href="#">Read More...</a>
+                 </div>
+             </div>
+             <div class="col-sm-12 col-md-6 ml-auto pr-lg-0 bb-part3">
+                <div class="order-2">
+                    <img class="w-100" src="images/carHands.png" alt="">
+                 </div> 
+             </div>
+         </div>
+         <div class="row mx-0">
+             <div class="col-sm-12 col-md-7 mr-auto pl-lg-0 bb-part3">
+                <div class="">
+                    <img class="w-100" src="images/layman.png" alt="">
+                 </div>
+             </div>
+             <div class="col-sm-12 col-md-4 m-auto">
+                <div class="style1">
+                    <h3 class="text-uppercase lato text-blue">workers' compensation</h3>
+                    <p class="lato">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vehicula rhoncus. Suspendisse ultricies posuere euismod. Quisque rutrum sollicitudin faucibus. Ut eu enim ac augue ultricies bibendum. Proin eget lectus diam, id feugiat ante. Nam lobortis magna sed est posuere eget ornare augue facilisis. Cras nulla tellus, eleifend eu interdum at, pharetra ut felis. Donec semper, augue eu venenatis </p>
+                    <a href="#">Read More...</a>
+                 </div>
+             </div>
+         </div>
+         <div class="row mx-0">
+             <div class="col-sm-12 col-md-4 m-auto">
+                <div class="style2">
+                    <h3 class="text-uppercase lato text-blue">liability insurance</h3>
+                    <p class="lato">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vehicula rhoncus. Suspendisse ultricies posuere euismod. Quisque rutrum sollicitudin faucibus. Ut eu enim ac augue ultricies bibendum. Proin eget lectus diam, id feugiat ante. Nam lobortis magna sed est posuere eget ornare augue facilisis. Cras nulla tellus, eleifend eu interdum at, pharetra ut felis. Donec semper, augue eu venenatis </p>
+                    <a href="#">Read More...</a>
+                 </div>
+             </div>
+             <div class="col-sm-12 col-md-6 ml-auto pr-lg-0 bb-part3">
+                <div class="">
+                    <img class="w-100" src="images/fireBuilding.png" alt="">
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section class="part4 my-5">
+         <div class="container">
+            <div class="row py-5 text-center">
+                <div class="col">
+                    <h3 class="text-uppercase text-blue lato ">enjoy our benefits</h3>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="row py-3">
+                <div class="col-sm-12 col-md-3">
+                    <div class="row text-center">
+                        <div class="col-sm-12 py-2">
+                            <img src="images/people-icon.png" alt="">
+                        </div>
+                        <div class="col-sm-12 text-capitalize">
+                            <p class="opensans regular text-lessBlack p-18">Trusted by over 20,000 
+                                Clients all over America</p>
+                        </div>
+                        <div class="col-sm-12 text-capitalize">
+                            <p class="lato light p-16 text-lessBlack">lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vehicula rhoncus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                   <div class="row text-center">
+                       <div class="col-sm-12 py-2">
+                           <img src="images/cupicon.png" alt="">
+                       </div>
+                       <div class="col-sm-12 text-capitalize">
+                           <p class="opensans regular text-lessBlack p-18">Top rated among most 
+                            insurance companies</p>
+                       </div>
+                       <div class="col-sm-12 text-capitalize">
+                           <p class="lato light p-16 text-lessBlack">lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vehicula rhoncus.</p class="lato light">
+                       </div>
+                   </div>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                   <div class="row text-center">
+                       <div class="col-sm-12 py-2">
+                           <img src="images/shakehands.png" alt="">
+                       </div>
+                       <div class="col-sm-12 text-capitalize">
+                           <p class="opensans regular text-lessBlack p-18">experts agents & dealers to assist you</p>
+                       </div>
+                       <div class="col-sm-12 text-capitalize p-16 text-lessBlack">
+                           <p class="lato light">lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vehicula rhoncus.</p class="lato light">
+                       </div>
+                   </div>
+                </div>
+                <div class="c0l-sm-12 col-md-3">
+                   <div class="row text-center">
+                       <div class="col-sm-12 py-2">
+                           <img src="images/howtosteps.png" alt="">
+                       </div>
+                       <div class="col-sm-12 text-capitalize">
+                           <p class="opensans regular text-lessBlack p-18">long and proud history of insurance service</p>
+                       </div>
+                       <div class="col-sm-12 text-capitalize">
+                           <p class="lato light p-16 text-lessBlack">lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vehicula rhoncus.</p>
+                       </div>
+                   </div>
+                </div>
+            </div>
+         </div>
+     </section> <!---for part-4 code ends here-->
+     <section class="part5">
+        <div class="container px-0">
+            <div class="row py-3">
+                <div class="col-sm-12 col-lg-6">
+                    <p class="text-white text-uppercase p-27 bitter regular pt-3">how we can help you</p>
+                </div>
+                <div class="col-sm-12 col-lg-6 pt-1">
+                    <span class="text-white text-uppercase p-35 bitter regular align-bottom pr-5">888-888-8888</span>
+                    <button class="text-uppercase opensans btn-1 btn-bg border-0 btn btn-warning px-5">Quote now <span><img src="images/button-arrow.png" alt=""></span></button>
+                </div>
+            </div>
+        </div> 
+     </section> <!--for part-5 code ends here-->
+     <section class="part6">
+         <div class="container my-5">
+             <div class="row">
+                 <h3 class="lato regular text-uppercase text-blue ">Reviews And Recommendations</h3>
+             </div>
+             <div class="row justify-content-between">
+                 <div class="col-lg-6 px-0">
+                     <div class="row">
+                         <div class="col-7 pr-0">
+                             <img class="w-100 h-100" src="images/bigStoreImg.png" alt="">
+                         </div>
+                         <div class="col-4">
+                             <div class="row">
+                                 <div class="col-12">
+                                     <img src="images/img1.png" alt="">
+                                 </div>
+                             </div>
+                             <div class="row py-3">
+                                 <div class="col-12">
+                                     <img src="images/img2.png" alt="">
+                                 </div>
+                             </div>
+                             <div class="row">
+                                 <div class="col-12">
+                                     <img src="images/img3.png" alt="">
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-6 px-0">
+                    <div class="row pt-4">
+                        <img src="images/quotestart.png" alt="">
+                    </div>
+                    <div class="row pl-5">
+                        <p class="p-18 lato font-italic text-lessGray lh-26 m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ven
+                            enatis vehicula rhoncus. Suspendisse ultricies posuere euismod. Quisque rutrum sollicitudin faucibus. Ut eu enim ac augue ultricies bibendum. Proin eget lectus diam, id feugiat ante. 
+                        </p>
+                    </div>
+                    <div class="row justify-content-end">
+                        <img src="images/quoteclose.png" alt="">
+                    </div>
+                    <div class="row pl-5 mt-3">
+                        <img src="images/5stars.png" alt="">
+                    </div>
+                    <div class="row pl-5 py-2">
+                        <p class="lato font-weight-bold text-blue p-19 m-0">Scott D., Bridgeport, CT</p>
+                    </div>
+                    <div class="row pl-5">
+                        <p class="lato font-weight-bold font-italic p-21 text-moreYellow m-0">
+                            Purchased Auto Insurance & reported savings of $900
+                        </p>
+                    </div>
+                 </div>
+             </div>
+         </div>
+     </section> <!--part6 code ends here-->
+     <section class="part7 footer-bg pt-5">
+         <div class="container px-0">
+             <div class="row justify-content-between">
+                 <div class="col-sm-12 col-lg-4 py-3">
+                     <img src="images/logo2.png" alt="">
+                 </div>
+                 <div class=" col-sm-6 col-lg-2">
+                     <p class="p-18 text-white text-capitalize lato regular">quick links</p>
+                     <ul class="p-0 list-unstyled">
+                         <li>
+                             <span><img src="images/bottomarrow.png" alt=""></span>
+                             <span><a class="text-capitalize text-white lato light p-16" href="">get a quote</a></span>
+                         </li>
+                         <li>
+                            <span><img src="images/bottomarrow.png" alt=""></span>
+                            <span><a class="text-capitalize text-white lato light p-16" href="">you policy</a></span>
+                        </li>
+                        <li>
+                            <span><img src="images/bottomarrow.png" alt=""></span>
+                            <span><a class="text-capitalize text-white lato light p-16" href="">claims center</a></span>
+                        </li>
+                        <li>
+                            <span><img src="images/bottomarrow.png" alt=""></span>
+                            <span><a class="text-capitalize text-white lato light p-16" href="">info center</a></span>
+                        </li>
+                        <li>
+                            <span><img src="images/bottomarrow.png" alt=""></span>
+                            <span><a class="text-capitalize text-white lato light p-16" href="">about us</a></span>
+                        </li>
+                        <li>
+                            <span><img src="images/bottomarrow.png" alt=""></span>
+                            <span><a class="text-capitalize text-white lato light p-16" href="">contact us</a></span>
+                        </li>
+                     </ul>
+                 </div>
+                 <div class=" col-sm-6 col-lg-3">
+                    <p class="p-18 text-white text-capitalize lato regular">quick links</p>
+                    <ul class="p-0 list-unstyled">
+                        <li>
+                            <span><img src="images/bottomarrow.png" alt=""></span>
+                            <span><a class="text-capitalize text-white lato light p-16" href="">business insurance</a></span>
+                        </li>
+                        <li>
+                           <span><img src="images/bottomarrow.png" alt=""></span>
+                           <span><a class="text-capitalize text-white lato light p-16" href="">workers' compensation</a></span>
+                       </li>
+                       <li>
+                           <span><img src="images/bottomarrow.png" alt=""></span>
+                           <span><a class="text-capitalize text-white lato light p-16" href="">liability insurance</a></span>
+                       </li>
+                       <li>
+                        <span><img src="images/bottomarrow.png" alt=""></span>
+                        <span><a class="text-capitalize text-white lato light p-16" href="">commercial auto insurance</a></span>
+                    </li>
+                    </ul>
+                 </div>
+                 <div class=" col-sm-12 col-lg-2">
+                     <div class="row justify-content-end pt-3">
+                         <img src="images/bbb.png" alt="">
+                     </div>
+                     <div class="row justify-content-end py-2">
+                         <img src="images/norton.png" alt="">
+                     </div>
+                     <div class="row justify-content-end">
+                         <img src="images/sitePrivacy.png" alt="">
+                     </div>
+                 </div>
+             </div>
+             <div class="row justify-content-center">
+                 <p class="small lato text-capitalize text-sm-center text-lessGray">&copy;copyright 2015 <span class="text-moreYellow">great agency </span>| all rights reserved</p>
+             </div>
+         </div>
+     </section>
     
-
-
         <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 

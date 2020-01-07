@@ -1,12 +1,57 @@
-
-.main{
-    position: absolute;
-    top: 0px;
-    right: 0;
-    left: 0;
-}
+.t-0{top: 0;}
+.t-1{top:10%;}
+.t-2{top:20%;}
+.t-3{top:30%;}
+.t-4{top: 40%;}
+.t-5{top: 50%;}
+.r-0{right: 0;}
+.l-0{left:0;}
+.ml-200{padding-left: 200px;}
+.pr-200{padding-right: 200px;}
+.bb-section2{border-bottom: 5px solid #001b50;}
+.bb-part3{border-bottom: 5px solid #b8bfc5;}
+.lh-26{line-height: 26px;}
+/* .mt-157{margin-top: 157px;} */
+.regular{font-weight: 400;}
+.light{font-weight: 300;}
+h3{font-size: 24px; line-height: 44px; font-weight:400;}
+.br-top{border-radius: 3px 3px 0px 0px;}
+.main{position: absolute; top: 0px; right: 0; left: 0;}
 .banner img{width: 100%;}
+/* .banner{background-image: url('..images/banner.png');} */
 #logo-main{position: absolute;}
 .nav-bg{background-color: #d6dde3;}
+.text-blue{color: #001b50;}
+.text-lessGray{color: #b8bfc5;}
+.text-lessBlack{color:#1f1f1f;}
+.text-moreYellow{color: #ff8800;}
 .active{background-color: #001b50;}
+.form-bg{background-color: #001b50;}
 .nav-img{height: 27px;}
+.raleway{font-family: 'Raleway', sans-serif;}
+.lato{font-family: 'Lato', sans-serif;}
+.opensans{font-family: 'Open Sans', sans-serif;}
+.weprovide{font-size: 58.38px; line-height: 62.18px;}
+.insuranceAndRisk{font-size:33px; line-height: 53.11px;}
+.bitter{font-family: 'Bitter', serif;}
+.getAQuote{font-size: 33px; line-height: 47.13px;}
+.inner-bg{background-color: #40547c;}
+.btn-1{font-weight: 600; font-size: 24px; line-height: 44px; color: #fff;}
+.btn-bg{background-color: #ff8800;}
+.style1{background-image: url('../images/left-inner-lion.png'); background-size: 100%;}
+.style2{background-image: url('../images/right-inner-lion.png'); background-size: 100%;}
+.part3 p{font-size: 18px; line-height: 31px; font-weight: 300;}
+.p-18{font-size: 18px;}
+.p-19{font-size: 19px; line-height: 26px;}
+.p-21{font-size: 21px; line-height: 26px;}
+.p-16{font-size: 16px;}
+.p-35{font-size: 35px; line-height: 46.89px;}
+.p-27{font-size: 27px; line-height: 47.13px;}
+.part5{background-image: url('../images/bluebottomBanner.png'); background-size: 100% 100%; background-repeat: no-repeat;}
+.footer-bg{background-color:  #29395d;}
+.part7 a{text-decoration: none; }
+
+
+
+
+
