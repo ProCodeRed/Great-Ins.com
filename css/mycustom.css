@@ -4,8 +4,13 @@
 .t-3{top:30%;}
 .t-4{top: 40%;}
 .t-5{top: 50%;}
+.t-8{top: 80%;}
 .r-0{right: 0;}
 .l-0{left:0;}
+a.nav-link {
+    font-size: 15px;
+}
+/* .part2{top: 78%;} */
 .ml-200{padding-left: 200px;}
 .pr-200{padding-right: 200px;}
 .bb-section2{border-bottom: 5px solid #001b50;}
@@ -17,6 +22,11 @@
 h3{font-size: 24px; line-height: 44px; font-weight:400;}
 .br-top{border-radius: 3px 3px 0px 0px;}
 .main{position: absolute; top: 0px; right: 0; left: 0;}
+.part2 {
+    position:absolute;
+    top: 48%;
+}
+.part2 .row{justify-content: space-between;}
 .banner img{width: 100%;}
 /* .banner{background-image: url('..images/banner.png');} */
 #logo-main{position: absolute;}
@@ -47,7 +57,10 @@ h3{font-size: 24px; line-height: 44px; font-weight:400;}
 .p-16{font-size: 16px;}
 .p-35{font-size: 35px; line-height: 46.89px;}
 .p-27{font-size: 27px; line-height: 47.13px;}
-.part5{background-image: url('../images/bluebottomBanner.png'); background-size: 100% 100%; background-repeat: no-repeat;}
+.part5{background-image: url('../images/bluebottomBanner.png');
+     background-size: 100% 100%; 
+     background-repeat: no-repeat;
+    }
 .footer-bg{background-color:  #29395d;}
 .part7 a{text-decoration: none; }
 

@@ -10,6 +10,7 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mycustom.css">
+    <link rel="stylesheet" href="css/media.css">
     <!-- <link rel="stylesheet" href="css/mytest.css"> -->
 </head>
 <body>
@@ -18,11 +19,11 @@
     </div>
     <section class="main nav-bg part1">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3 d-none d-lg-block">
-                    <img id="logo-main" src="images/logoMain.png" alt="">
+            <div class="row justify-content-lg-between">
+                <div class="col-lg-4 d-none d-lg-block px-0">
+                    <img class="w-80" id="logo-main" src="images/logoMain.png" alt="">
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-8 px-0">
                     <nav class="navbar navbar-expand-lg navbar-light p-0 ">
                         <a class="navbar-brand d-sm-block d-lg-none" href="#">
                             <img src="images/logo-main-small.jpg" width="auto" height="40" class="d-inline-block align-top" alt="">
@@ -60,17 +61,17 @@
             </div> <!--top header code ends here-->
         </div>
     </section>
-    <section class=" t-4 r-0 l-0 bb-section2 part2">
-        <div class="container-sm container p-sm-3">
-             <div class="row justify-content-between">
+    <section class="r-0 l-0 bb-section2 part2 clearfix">
+        <div class="container px-0">
+             <div class="row ">
                  <div class="col-sm-12 col-lg-6">
                      <p class="text-uppercase text-blue font-weight-bold raleway weprovide">we provide</p>
                      <p class="text-capitalize lato font-weight-normal insuranceAndRisk">insurance and risk <br> management services to <br> business and individuals</p>
                      <img src="images/red-arrow.png" alt="">
                      <span class="lato font-weight-bold insuranceAndRisk align-bottom">123-456-7890</span>
                  </div>
-                 <div><img src="images/left.png" alt=""></div>
-                 <div class="col-sm-12 col-md-8 col-lg-4 text-center form-bg rounded-top mt-5">
+                 <!-- <div class="col-lg-1"><img  class="d-none d-lg-block" src="images/left.png" alt=""></div"> -->
+                 <div class="col-sm-8 col-lg-6 col-xl-4 form-bg rounded-top text-center part2-form-margin">
                      <div class="">
                          <form class="mb-0" action="">
                              <p class="text-white text-uppercase py-2 m-0 bitter getAQuote">get a quote</p>
@@ -125,32 +126,34 @@
                          </form>
                      </div>
                  </div>
-                 <div><img src="images/right.png" alt=""></div>
+                 <!-- <div class="col-lg-1"><img  class="d-none d-lg-block" src="images/right.png" alt=""></div> -->
              </div>
         </div>
-     </section> <!--banner's code ends here-->
+     </section> <!--banner's code ends here --->
      <section class="part3">
          <div class="row mx-0 ">
-             <div class="col-sm-12 col-md-4 m-auto">
+             <div class="col-sm-12 col-lg-6 col-xl-4 m-auto">
                 <div class="order-1 style2">
                     <h3 class="text-uppercase lato text-blue">commercial auto insurance</h3>
                     <p class="lato">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vehicula rhoncus. Suspendisse ultricies posuere euismod. Quisque rutrum sollicitudin faucibus. Ut eu enim ac augue ultricies bibendum. Proin eget lectus diam, id feugiat ante. Nam lobortis magna sed est posuere eget ornare augue facilisis. Cras nulla tellus, eleifend eu interdum at, pharetra ut felis. Donec semper, augue eu venenatis </p>
                     <a href="#">Read More...</a>
                  </div>
              </div>
-             <div class="col-sm-12 col-md-6 ml-auto pr-lg-0 bb-part3">
+             <div class="col-sm-12 col-lg-6 col-xl-6 ml-auto pr-lg-0 bb-part3">
                 <div class="order-2">
-                    <img class="w-100" src="images/carHands.png" alt="">
+                    <img class="w-100 d-sm-none d-lg-block" src="images/carHands.png" alt="">
+                    <img class=" w-100 d-lg-none" src="images/carinsurance.jpg" alt="">
                  </div> 
              </div>
          </div>
          <div class="row mx-0">
-             <div class="col-sm-12 col-md-7 mr-auto pl-lg-0 bb-part3">
+             <div class="col-sm-12 col-lg-6 col-xl-7 mr-auto pl-lg-0 bb-part3">
                 <div class="">
-                    <img class="w-100" src="images/layman.png" alt="">
+                    <img class="w-100 d-sm-none d-lg-block" src="images/layman.png" alt="">
+                    <img class="w-100 d-lg-none" src="images/workers-insurance.jpg" alt="">
                  </div>
              </div>
-             <div class="col-sm-12 col-md-4 m-auto">
+             <div class="col-sm-12 col-lg-6 col-xl-4 m-auto">
                 <div class="style1">
                     <h3 class="text-uppercase lato text-blue">workers' compensation</h3>
                     <p class="lato">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vehicula rhoncus. Suspendisse ultricies posuere euismod. Quisque rutrum sollicitudin faucibus. Ut eu enim ac augue ultricies bibendum. Proin eget lectus diam, id feugiat ante. Nam lobortis magna sed est posuere eget ornare augue facilisis. Cras nulla tellus, eleifend eu interdum at, pharetra ut felis. Donec semper, augue eu venenatis </p>
@@ -159,16 +162,17 @@
              </div>
          </div>
          <div class="row mx-0">
-             <div class="col-sm-12 col-md-4 m-auto">
+             <div class="col-sm-12 col-lg-6 col-xl-4 m-auto">
                 <div class="style2">
                     <h3 class="text-uppercase lato text-blue">liability insurance</h3>
                     <p class="lato">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vehicula rhoncus. Suspendisse ultricies posuere euismod. Quisque rutrum sollicitudin faucibus. Ut eu enim ac augue ultricies bibendum. Proin eget lectus diam, id feugiat ante. Nam lobortis magna sed est posuere eget ornare augue facilisis. Cras nulla tellus, eleifend eu interdum at, pharetra ut felis. Donec semper, augue eu venenatis </p>
                     <a href="#">Read More...</a>
                  </div>
              </div>
-             <div class="col-sm-12 col-md-6 ml-auto pr-lg-0 bb-part3">
+             <div class="col-sm-12 col-lg-6 col-xl-6 ml-auto pr-lg-0 bb-part3">
                 <div class="">
-                    <img class="w-100" src="images/fireBuilding.png" alt="">
+                    <img class="w-100 d-sm-none d-lg-block" src="images/fireBuilding.png" alt="">
+                    <img class="w-100 d-lg-none" src="images/house-on-fire.jpg" alt="">
                  </div>
              </div>
          </div>
@@ -241,10 +245,10 @@
      <section class="part5">
         <div class="container px-0">
             <div class="row py-3">
-                <div class="col-sm-12 col-lg-6">
+                <div class="col-sm-12 col-md-6 col-lg-6">
                     <p class="text-white text-uppercase p-27 bitter regular pt-3">how we can help you</p>
                 </div>
-                <div class="col-sm-12 col-lg-6 pt-1">
+                <div class="col-sm-12 col-md-6 col-lg-6 pt-1">
                     <span class="text-white text-uppercase p-35 bitter regular align-bottom pr-5">888-888-8888</span>
                     <button class="text-uppercase opensans btn-1 btn-bg border-0 btn btn-warning px-5">Quote now <span><img src="images/button-arrow.png" alt=""></span></button>
                 </div>
@@ -252,12 +256,12 @@
         </div> 
      </section> <!--for part-5 code ends here-->
      <section class="part6">
-         <div class="container my-5">
+         <div class="container-sm container-md container-lg my-lg-5">
              <div class="row">
                  <h3 class="lato regular text-uppercase text-blue ">Reviews And Recommendations</h3>
              </div>
              <div class="row justify-content-between">
-                 <div class="col-lg-6 px-0">
+                 <div class="col-lg-5 col-xl-6 px-lg-0">
                      <div class="row">
                          <div class="col-7 pr-0">
                              <img class="w-100 h-100" src="images/bigStoreImg.png" alt="">
@@ -281,8 +285,8 @@
                          </div>
                      </div>
                  </div>
-                 <div class="col-lg-6 px-0">
-                    <div class="row pt-4">
+                 <div class="col-lg-6 px-lg-0">
+                    <div class="row ml-sm-2 pt-4">
                         <img src="images/quotestart.png" alt="">
                     </div>
                     <div class="row pl-5">
@@ -310,11 +314,11 @@
      </section> <!--part6 code ends here-->
      <section class="part7 footer-bg pt-5">
          <div class="container px-0">
-             <div class="row justify-content-between">
-                 <div class="col-sm-12 col-lg-4 py-3">
+             <div class="row x-small justify-content-between">
+                 <div class="col-sm-12 text-sm-center col-lg-4 py-3">
                      <img src="images/logo2.png" alt="">
                  </div>
-                 <div class=" col-sm-6 col-lg-2">
+                 <div class=" col-sm-12 col-md-6 text-sm-center col-lg-2">
                      <p class="p-18 text-white text-capitalize lato regular">quick links</p>
                      <ul class="p-0 list-unstyled">
                          <li>
@@ -343,7 +347,7 @@
                         </li>
                      </ul>
                  </div>
-                 <div class=" col-sm-6 col-lg-3">
+                 <div class=" col-sm-12 col-md-6 text-sm-center col-lg-3">
                     <p class="p-18 text-white text-capitalize lato regular">quick links</p>
                     <ul class="p-0 list-unstyled">
                         <li>
@@ -364,19 +368,19 @@
                     </li>
                     </ul>
                  </div>
-                 <div class=" col-sm-12 col-lg-2">
-                     <div class="row justify-content-end pt-3">
-                         <img src="images/bbb.png" alt="">
+                 <div id="secure_links" class="col-sm-12 col-lg-2">
+                     <div class="row justify-content-end p-sm-0 pt-lg-3 m-sm-0">
+                         <img class="small-img" src="images/bbb.png" alt="">
                      </div>
-                     <div class="row justify-content-end py-2">
-                         <img src="images/norton.png" alt="">
+                     <div class="row justify-content-end p-sm-0 py-lg-2 m-sm-0">
+                         <img class="small-img" src="images/norton.png" alt="">
                      </div>
-                     <div class="row justify-content-end">
-                         <img src="images/sitePrivacy.png" alt="">
+                     <div class="row justify-content-end m-sm-0">
+                         <img class="small-img" src="images/sitePrivacy.png" alt="" class="h-sm-50">
                      </div>
                  </div>
              </div>
-             <div class="row justify-content-center">
+             <div class="pt-sm-3 row justify-content-center">
                  <p class="small lato text-capitalize text-sm-center text-lessGray">&copy;copyright 2015 <span class="text-moreYellow">great agency </span>| all rights reserved</p>
              </div>
          </div>
